@@ -5,9 +5,9 @@ import {
   Inter_700Bold,
   Inter_800ExtraBold
 } from '@expo-google-fonts/inter';
-import { StyleSheet, Text, View, StatusBar } from 'react-native';
+import { StatusBar } from 'react-native';
 import { Loading } from './src/components/Loading';
-import { Home } from './src/screens/Home';
+import { Routes } from './src/routes';
 
 
 export default function App() {
@@ -24,7 +24,7 @@ export default function App() {
 
   return (
     <>
-      <Home />
+      <Routes />
       <StatusBar
         backgroundColor="transparent"
         barStyle="light-content"
